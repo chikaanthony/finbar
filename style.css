@@ -217,7 +217,7 @@ input::placeholder{
     background: none;
     color: rgb(12, 77, 69);
 }
-@media (max-width:400px) {
+@media (max-width:600px) {
       .hero-section{
         flex-direction: column;
         margin-top: 50px;
@@ -303,7 +303,7 @@ blockquote{
     border-radius: 10px;
     margin-bottom: 20px;
 }
-@media (max-width:400px){
+@media (max-width:600px){
     blockquote{
     width: 95%;
     background-color: white;
@@ -435,7 +435,7 @@ article{
     border-bottom: 2px solid rgb(59, 58, 58);
     align-self: center;
 }
-@media (max-width:400px){
+@media (max-width:600px){
     .why-space{
     display: block;
     }
@@ -523,7 +523,7 @@ article{
     column-gap: 30px;
     margin-top: 50px;
 }
-@media (max-width:400px) {
+@media (max-width:600px) {
     .number{
         font-size: 3em;
     }
@@ -537,4 +537,249 @@ article{
     .maximize{
         font-size: 1.5rem;
     }
+}
+.main-container-1{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+}
+.down{
+    font-size: 0.7em;
+    font-weight: 600;
+    color: rgba(23, 62, 62, 0.547);
+    margin-bottom: 10PX;
+    display: inline-block;
+    text-align: center;
+}
+.mission{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    column-gap: 30px;
+}
+.step-card24{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px
+}
+.number24{
+    display: block;
+    font-size: 3.3rem;
+    font-weight: 500;
+    color: rgb(2, 2, 67);
+}
+.header24{
+    display: block;
+    color: rgba(23, 62, 62, 0.547);
+    font-size: 0.8rem;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+.choose{
+    display: block;
+    text-align: center;
+    font-size: 0.9rem;
+    font-weight: 550;
+    color: rgb(1, 114, 114);
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.main-card{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    column-gap: 30px;
+}
+.atm1{
+    width: 350px;
+    height: 180px;
+    background-color: rgb(237, 240, 240);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    row-gap: 100px;
+    padding-left: 20px;
+}
+.top{
+    color: rgb(1, 46, 72);
+    font-size: 2rem;
+    font-weight: 500;
+    margin-top: 10px;
+}
+.bottom{
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+    color: rgb(1, 46, 72);
+    font-weight: bold;
+}
+.atm2{
+    width: 350px;
+    height: 180px;
+    background-color: rgb(83, 155, 165);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    row-gap: 100px;
+    padding-left: 20px;
+}
+.bottom2{
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+    color: white;
+    font-weight: bold;
+}
+.top2{
+    color: white;
+    font-size: 2rem;
+    font-weight: 500;
+    margin-top: 10px;
+}
+@media (max-width:600px) {
+    .mission{
+        flex-wrap: wrap;
+    }
+    .main-card{
+        flex-direction: column;
+        row-gap: 20px;
+    }
+    .atm1{
+        width: 90%;
+        margin: auto;
+    }
+    .atm2{
+        width: 90%;
+        margin: auto;
+    }
+}
+.blue2{
+    background: rgb(8, 66, 93);
+    width: 90%;
+    min-height: 100px;
+    margin-top: 70px;
+    border-radius: 15px;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 80px;
+    margin-bottom: 30px;
+}
+.try{
+    font-size: 1rem;
+    display: block;
+    font-weight: 600;
+    color: rgba(127, 255, 212, 0.696);
+    margin-bottom: 10px;
+}
+.ready{
+    font-size: 2.7rem;
+    color: white;
+    display: block;
+    margin-bottom: 20px;
+}
+.support{
+    font-size: 0.8rem;
+    color: rgba(255, 255, 255, 0.697);
+    display: block;
+    margin-bottom: 20px;
+}
+.b{
+    display: flex;
+}
+.get-start, .learn{
+    padding: 20px;
+    margin: 2px;
+    border-radius: 15px;
+    border: 1px solid rgba(79, 176, 203, 0.593);
+    color: white;
+    outline: none;
+}
+.get-start{
+    background-color: rgb(79, 176, 203);
+}
+.learn{
+    background: transparent;
+}
+@media (max-width:600px) {
+    .blue2{
+        flex-direction: column;
+        padding: 20px 15px 40px 15px;
+    }
+    .ready{
+        font-size: 2rem;
+    }
+    .text{
+        font-size: 0.8em;
+    }   
+
+}
+footer{
+    display: flex;
+    margin: auto;
+    width: 90%;
+}
+.finbar{
+    display: flex;
+    column-gap: 3px;
+    width: 25%;
+}
+.fin{
+    width: 20px;
+    height: 20px;
+    background-color: rgb(30, 52, 78);
+    border-radius: 5px;
+}
+.text{
+    display: block;
+    color:  rgb(30, 52, 78);
+    font-weight: bold;
+}
+.solutions{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.solution-container{
+    display: flex;
+    width: 58%;
+    column-gap: 5%;
+}
+.sol{
+    font-size: 1rem;
+    font-weight: bold;
+    color: rgba(3, 47, 51, 0.836);
+}
+.small{
+    font-size: 0.8rem;
+    font-weight: bold;
+    color:  rgba(3, 47, 51, 0.501);
+}
+.follow{
+    width: 23%;
+    display: flex;
+    justify-content: flex-end;
+}
+@media (max-width:600px) {
+    .small{
+    font-size: 0.5rem;
+    font-weight: bold;
+    color:  rgba(3, 47, 51, 0.501);
+}   
+    .sol{
+    font-size: 0.7rem;
+    font-weight: bold;
+    color: rgba(3, 47, 51, 0.836);
+}
+.follow{
+    font-size: 0.6rem;
+}
+.last{
+    font-size: 0.6rem;
+}
 }
